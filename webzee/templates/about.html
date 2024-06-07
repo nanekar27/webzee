@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>About Us - Your Company Name</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+        /* Add your custom styles here */
+        /* You can incorporate your existing styles here */
+        /* This is just a placeholder */
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 20px;
+            background-image: linear-gradient(to right, rgb(5, 34, 59), rgba(223, 18, 18, 0)); /* Gradient background */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+            {% comment %} transition: transform 0.3s ease-in-out; /* Transition effect for transform */ {% endcomment %}
+            color: black; /* Font color */
+            display: static;
+            position: relative;
+        }
+
+        
+
+        h1, h2, h3 {
+            color: white; /* Heading font color */
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white; /* Font color */
+            padding: 20px 0;
+            text-align: center;
+            width: 100%;
+            position: relative;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body1>
+    {% include "base.html" %} 
+</body1>
+<body>
+    <div class="container">
+        <h1>About Us</h1>
+        <p>Welcome to <strong>WEEBZEE Smart Home</strong>, where we are dedicated to bringing the future into your home today. With a focus on innovative solutions and cutting-edge technology, we strive to make your life easier, more efficient, and ultimately more enjoyable.</p>
+        <h2>Our Founder's</h2>
+        <ul>
+            <li><strong>Mr. Jayesh Nanekar</strong></li>
+            <li><strong>Mr. Aniket Pawar</strong></li>
+            <li><strong>Mr. Krishna Kulthe</strong></li>
+            <li><strong>Mr. Sagar Sutarpanchar</strong></li>
+        </ul>
+        <h2>Our Guide</h2>
+        <ul>
+            <li><strong>Prof. Malayaj Kumar</strong></li>
+        </ul>
+        <h2>Our Mission</h2>
+        <p>At <strong>WEEBZEE Smart Home</strong>, our mission is to revolutionize the way you interact with your home environment. Through the power of Internet of Things (IoT) technology, we aim to create seamless connections between you and your appliances, allowing for effortless control and monitoring from anywhere in the world.</p>
+        
+        <h2>Our Vision</h2>
+        <p>We envision a world where homes are not just spaces, but intelligent ecosystems that adapt to your needs and preferences. Through our commitment to research and development, we aspire to be at the forefront of this evolution, constantly pushing the boundaries of what is possible in home automation.</p>
+        
+        <h2>Why Choose Us</h2>
+        <ul>
+            <li><strong>Expertise:</strong> With years of experience in IoT technology and home automation, our team of experts brings unparalleled knowledge and skill to every project.</li>
+            <li><strong>Innovation:</strong> We are constantly exploring new ideas and technologies to ensure that our solutions are always ahead of the curve.</li>
+            <li><strong>Reliability:</strong> When you choose <strong>WEEBZEE Smart Home</strong>, you can trust that our products are built to last, with a focus on quality and durability.</li>
+            <li><strong>Customer Satisfaction:</strong> Your satisfaction is our top priority. From initial consultation to ongoing support, we are here to ensure that your experience with us is nothing short of exceptional.</li>
+        </ul>
+        
+        <h2>Get in Touch</h2>
+        <p>Ready to experience the future of home automation? Contact us today to learn more about our products and services, or to schedule a consultation with one of our experts. Join us on the journey to a smarter, more connected home.</p>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <span>&copy; All rights reserved.</span>
+        </div>
+    </footer>
+
+    <!-- JavaScript files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

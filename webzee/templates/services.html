@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock title %}<!DOCTYPE html>
+{% block body %}
+  <style>
+    /* Additional custom styles can be added here */
+    
+  
+   
+
+    
+    .service-item {
+      margin-bottom: 30px;
+    }
+    .service-item img {
+      max-width: 100%;
+    }
+    .service-item h3 {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="service-item">
+          <img src="static\ligh.jpeg" alt="Service 1">
+          <h3>Smart Lighting Solutions</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id magna felis.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="service-item">
+          <img src="static\sm.jpeg" alt="Service 2">
+          <h3>Home Security Systems</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id magna felis.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="service-item">
+          <img src="static\temprature.jpeg" alt="Service 3">
+          <h3>Temperature Control Solutions</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id magna felis.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+{% endblock body %}
