@@ -1,12 +1,12 @@
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyBK6qO8fiBgxQgMWPbeJxJPcqkehpHkLNU",
-    authDomain: "smart-auto-webzee.firebaseapp.com",
-    databaseURL: "https://smart-auto-webzee-default-rtdb.firebaseio.com",
-    projectId: "smart-auto-webzee",
-    storageBucket: "mart-auto-webzee.appspot.com",
-    messagingSenderId: "569939200606",
-    appId: "1:569939200606:web:9df1dfb94dc420b0d1c2cf",
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
